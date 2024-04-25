@@ -1,0 +1,27 @@
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Highlight present cells */
+td.present {
+  background-color: #c8e6c9;
+}
+
+/* Highlight absent cells */
+td.absent {
+  background-color: #ffcdd2;
+}
